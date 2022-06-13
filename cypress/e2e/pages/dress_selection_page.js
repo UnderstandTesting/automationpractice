@@ -11,10 +11,8 @@ const PRODUCTTOTAL = '#total_product'
 class DressSelectionPage {
 
     selectHighestPricedDress(){
-
         homePage.getHigestPriceIndex().then((value) => {
             const ADDTOCARTBUTTON = ADDTOCART.replace('X',value)
-            cy.log(ADDTOCARTBUTTON)
             cy.get(ADDTOCARTBUTTON).click()          
         })
     }
