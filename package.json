@@ -1,0 +1,23 @@
+{
+  "name": "automation_assignment",
+  "version": "1.0.0",
+  "description": "Cypress project using Pageobject model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnderstandTesting/automationpractice.git"
+  },
+  "author": "George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnderstandTesting/automationpractice/issues"
+  },
+  "homepage": "https://github.com/UnderstandTesting/automationpractice#readme",
+  "devDependencies": {
+    "cypress": "^10.1.0",
+    "cypress-waitfor": "^1.1.0"
+  }
+}
